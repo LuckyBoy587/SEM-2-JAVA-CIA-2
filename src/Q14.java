@@ -11,6 +11,7 @@ public class Q14 {
 
         int currentDayNumber = (dayNumber + randomNumber - 1) % 7 + 1;
         System.out.println(currentDayNumber);
+        System.out.println(getDay(currentDayNumber));
     }
 
     public static String getDay(int dayNumber) {
